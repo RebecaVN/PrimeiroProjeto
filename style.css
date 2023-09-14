@@ -1,0 +1,220 @@
+body {
+    width: 100%;
+    background-color: rgb(34, 34, 34);
+    height: 100%;
+    margin: 0 auto;
+    }
+    ul {
+       padding: 0px!important; 
+    }
+    .menu-principal {
+    width: 100%;
+    background-color: #070707;
+    height: 60px;
+    }
+    main, .content {
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
+    }
+    .logo {
+     float: left;
+     padding: 1px;
+     width: 70%;
+    }   
+    .redes-sociais ul li {
+    margin-left: 25px;
+    display: inline-block;
+    list-style: none;
+    }
+    .redes-sociais {
+    width: 25%;
+    float: right;
+    }
+    .header-2 {
+    width: 980px;
+    margin: 0 auto;
+    padding: 16px;
+    }
+    .menu-urls {
+    height: 80px;
+    border-bottom: 3px solid #5600c6;
+    ;
+    }
+    .menu ul li {
+        display: inline-block;
+        color: #8b8b8b;
+        margin-left: 15px;
+        height: 50px;
+    }
+    
+    .menu ul li:hover {
+        border-bottom: 3px solid #5600c6;
+    }
+    
+    .menu ul li a:hover {
+        color: #5600c6;
+        
+    }
+    
+    .menu ul li a {
+        color: #8b8b8b;
+        text-decoration: none;
+        font-size: 18px;
+        text-transform: uppercase;
+    }
+    .menu {
+    width: 70%;
+    float: left;
+    }
+    .busca {
+        text-align: center;
+        width: 30%;
+        float: right;
+    }
+    .busca input {
+        background-image: url(../img/icone-search.png);
+        background-repeat: no-repeat;
+        height: 36px;
+        padding: 12px;
+        width: 190px;
+        margin-top: 10px;
+        background-position: 96%;
+        border: 1px solid #5600c6;
+    }
+    .col-100 {
+        width: 100%;
+        float: left;
+        position: relative;
+    }
+    button.slick-prev {
+        font-size: 0px;
+        border: none;
+        width: 25px;
+        height: 51px;
+        z-index: 9;
+        background-color: transparent;
+        position: absolute;
+        background-image: url(../img/anterior.png);
+        top: 35%;
+        left: 14%;
+    }
+    button.slick-next {
+        font-size: 0px;
+        border: none;
+        width: 25px;
+        height: 51px;
+        z-index: 9;
+        background-color: transparent;
+        position: absolute;
+        background-image: url(../img/proximo.png);
+        top: 35%;
+        right: 14%;
+    }
+    .slick-list {
+        width: 100%!important;
+    }
+    .slick-initialized {
+        overflow: hidden;
+    }
+    .slick-dots li button {
+        font-size: 0px;
+        border: 5px solid #eeeded00;
+        width: 26px;
+        height: 26px;
+        background: transparent;
+        border-radius: 50%;
+        cursor: pointer;
+    
+    }
+    .slick-dots {
+        margin: 0 auto;
+        width: 50%;
+        position: absolute;
+        left: 50%;
+        top: 600px;
+    }
+    
+    li.slick-active button {
+        background: #6f0dca;
+    }
+    
+    .slick-dots li {
+        padding-left: 10px;
+        display: inline-block;
+    }
+    .texto-destaque button{
+            background-color: #5600c6;
+            padding: 1rem 3rem 1rem 3rem;
+            border: none;
+            border-radius: 5px;
+            color: rgb(252, 252, 252);
+           font-size: 1rem;
+           cursor: pointer;
+           transition: 0.3s;
+        }
+    .texto-destaque button:hover{
+            background-color: rgb(212, 206, 206);
+            transform: scaleY(1.2);
+    }
+    
+    .texto-destaque {
+        text-align: center;
+    }
+    .texto-destaque strong {
+        color: #6f0dca;
+    }
+    .texto-destaque h1 {
+        text-transform: uppercase;
+        font-size: 30px;
+        color: #b366bd;
+    }
+    .texto-destaque p {
+        font-size: 15px;
+        color: #6f0dca;
+    }
+    
+    .col-3 {
+        color: #ffffff  ;
+        margin-top: 50px;
+        text-align: center;
+        padding-left: 15px;
+        padding-right: 15px; 
+        width: 29%;
+        float: left;
+        position: relative;
+    }
+    .footer h3 {
+        text-align: left;
+    }
+    .footer {
+        margin-top: 50px;
+        background-color: #a170ce;
+        color: #ffffff;
+    }
+    .footer p {
+        width: 90%;
+        text-align: left;
+    }
+    .footer-2 {
+        background-image: url('../img/footer2.png');
+        color: #c1c1c1;
+        height: 50px;
+    }
+.local:before, .emailico:before, .telefoneico:before {
+    content: '';
+    width:  17px;
+    height: 24px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    padding-left: 5px;
+}
+.local:before {
+    background-image: url('../img/local.png');
+}  
+.emailico:before {
+    background-image: url('../img/emailico.png');
+}  
+.telefoneico:before {
+    background-image: url('../img/telefoneico.png');
+}  
